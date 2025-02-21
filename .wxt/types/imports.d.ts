@@ -4,6 +4,7 @@ declare global {
   const ContentScriptContext: typeof import('wxt/client')['ContentScriptContext']
   const InvalidMatchPattern: typeof import('wxt/sandbox')['InvalidMatchPattern']
   const MatchPattern: typeof import('wxt/sandbox')['MatchPattern']
+  const ThemeProvider: typeof import('/Users/kongyewchan/code_browser_extensions/wxt_examples/wxt-react-shadcn-tailwindcss-chrome-extension/components/theme-provider')['ThemeProvider']
   const browser: typeof import('wxt/browser')['browser']
   const createIframeUi: typeof import('wxt/client')['createIframeUi']
   const createIntegratedUi: typeof import('wxt/client')['createIntegratedUi']
@@ -13,7 +14,8 @@ declare global {
   const defineContentScript: typeof import('wxt/sandbox')['defineContentScript']
   const defineUnlistedScript: typeof import('wxt/sandbox')['defineUnlistedScript']
   const fakeBrowser: typeof import('wxt/testing')['fakeBrowser']
-  const i18n: typeof import('/Users/tiger/Develop/chrome/wxt-react-shadcn-tailwindcss-chrome-extension/components/i18n')['default']
-  const i18nConfig: typeof import('/Users/tiger/Develop/chrome/wxt-react-shadcn-tailwindcss-chrome-extension/components/i18nConfig')['default']
+  const i18n: typeof import('/Users/kongyewchan/code_browser_extensions/wxt_examples/wxt-react-shadcn-tailwindcss-chrome-extension/components/i18n')['default']
+  const i18nConfig: typeof import('/Users/kongyewchan/code_browser_extensions/wxt_examples/wxt-react-shadcn-tailwindcss-chrome-extension/components/i18nConfig')['default']
   const storage: typeof import('wxt/storage')['storage']
+  const useTheme: typeof import('/Users/kongyewchan/code_browser_extensions/wxt_examples/wxt-react-shadcn-tailwindcss-chrome-extension/components/theme-provider')['useTheme']
 }
